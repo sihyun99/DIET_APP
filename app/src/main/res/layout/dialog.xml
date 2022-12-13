@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="수정"
+        android:fontFamily="@font/maru"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edit_editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <EditText
+        android:id="@+id/edit_editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <EditText
+        android:id="@+id/edit_editEvaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <EditText
+        android:id="@+id/edit_editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <EditText
+        android:id="@+id/edit_editQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <EditText
+        android:id="@+id/edit_editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+    <EditText
+        android:id="@+id/edit_editArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maru"/>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/maru"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:text="취소"
+        android:fontFamily="@font/maru"
+        android:layout_margin="5dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
